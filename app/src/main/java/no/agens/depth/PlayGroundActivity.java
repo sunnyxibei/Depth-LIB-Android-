@@ -74,7 +74,7 @@ public class PlayGroundActivity extends Activity {
     }
 
     private SeekBar setupRotationXSeekbar() {
-        SeekBar rotationX = (SeekBar) findViewById(R.id.rotation_x_seekbar);
+        SeekBar rotationX = findViewById(R.id.rotation_x_seekbar);
         WindFragment.setProgressBarColor(rotationX, seekBarColor);
         rotationX.setOnSeekBarChangeListener(new SeekBarProgressChangeListener() {
             @Override

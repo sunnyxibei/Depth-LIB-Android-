@@ -185,7 +185,7 @@ public class RootActivity extends Activity {
     }
 
     private void select(View menuItem, int color) {
-        final CircularSplashView circle = (CircularSplashView) menuItem.findViewById(R.id.circle);
+        final CircularSplashView circle = menuItem.findViewById(R.id.circle);
         circle.setScaleX(1f);
         circle.setScaleY(1f);
         circle.setVisibility(View.VISIBLE);
